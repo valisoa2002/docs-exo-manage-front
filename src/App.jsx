@@ -1,12 +1,9 @@
-import { useState } from "react";
-import "./App.css";
+import UploadFile from "./components/UploadFile";
 
 function App() {
   return (
     <>
-      <div className="text-center">
-        <>dfsfdfdfddfsfdsfdfsfdsf</>
-      </div>
+      <UploadFile />
     </>
   );
 }
